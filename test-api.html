@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenRouter API Test</title>
+</head>
+<body>
+    <h1>OpenRouter API Test</h1>
+    <button onclick="testAPI()">Test API</button>
+    <pre id="result"></pre>
+
+    <script>
+        async function testAPI() {
+            const apiKey = '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';
+            const resultEl = document.getElementById('result');
+            
+            resultEl.textContent = 'Testing API...\n';
+            
+            try {
+                const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${apiKey}`,
+                        'Content-Type': 'application/json',
+                        'HTTP-Referer': window.location.origin,
+                        'X-Title': 'Test'
+                    },
+                    body: JSON.stringify({
+                        model: 'meta-llama/llama-3.2-3b-instruct:free',
+                        messages: [
+                            { role: 'user', content: 'Say hello' }
+                        ]
+                    })
+                });
+
+                resultEl.textContent += `Status: ${response.status}\n`;
+                
+                const data = await response.json();
+                resultEl.textContent += `Response:\n${JSON.stringify(data, null, 2)}`;
+                
+            } catch (error) {
+                resultEl.textContent += `Error: ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>

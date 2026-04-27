@@ -1,0 +1,139 @@
+{
+  "clinic": {
+    "name": "White & Bright Dental Clinic",
+    "tagline": "Let Us Brighten Your Smile",
+    "phone": "082383 43267",
+    "email": "info@whitebright.com",
+    "address": "62, Janta Nagar Ring Rd, Parshwanath Nagar, Gujarat Housing Board, Chandkheda, Ahmedabad, Gujarat 382424",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.0!2d72.6!3d23.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDA2JzAwLjAiTiA3MsKwMzYnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+  },
+  "doctor": {
+    "name": "Dr. Rushabh Patel",
+    "qualification": "BDS",
+    "experience": "18+ years",
+    "specialization": "Root Canal Treatment Specialist",
+    "quote": "A smile is the main component of human charm. Charming people find it easier to communicate with others and achieve their goals."
+  },
+  "workingHours": {
+    "weekdays": {
+      "days": "Monday – Saturday",
+      "morning": "9:00 AM – 1:00 PM",
+      "evening": "4:00 PM – 8:30 PM"
+    },
+    "sunday": {
+      "day": "Sunday",
+      "timing": "10:00 AM – 1:00 PM"
+    }
+  },
+  "services": [
+    {
+      "id": 1,
+      "name": "Root Canal Treatment",
+      "description": "Expert RCT specialist providing painless root canal treatment with advanced technology.",
+      "icon": "tooth"
+    },
+    {
+      "id": 2,
+      "name": "Wisdom Tooth Extraction",
+      "description": "Safe and comfortable wisdom tooth removal with minimal discomfort.",
+      "icon": "scissors"
+    },
+    {
+      "id": 3,
+      "name": "Bleeding Gums Treatment",
+      "description": "Comprehensive gum disease treatment to restore healthy gums.",
+      "icon": "heart"
+    },
+    {
+      "id": 4,
+      "name": "Oral & Maxillofacial Surgery",
+      "description": "Advanced surgical procedures for complex dental conditions.",
+      "icon": "activity"
+    },
+    {
+      "id": 5,
+      "name": "Invisalign",
+      "description": "Clear aligners for discreet teeth straightening without traditional braces.",
+      "icon": "smile"
+    },
+    {
+      "id": 6,
+      "name": "Orthodontics",
+      "description": "Comprehensive teeth alignment and bite correction treatments.",
+      "icon": "grid"
+    },
+    {
+      "id": 7,
+      "name": "Cosmetic Dentistry",
+      "description": "Enhance your smile with our cosmetic dental procedures.",
+      "icon": "sparkles"
+    },
+    {
+      "id": 8,
+      "name": "Teeth Whitening",
+      "description": "Professional teeth whitening for a brighter, confident smile.",
+      "icon": "sun"
+    },
+    {
+      "id": 9,
+      "name": "Dental Implants",
+      "description": "Permanent tooth replacement solution with natural look and feel.",
+      "icon": "anchor"
+    },
+    {
+      "id": 10,
+      "name": "Crown & Bridges",
+      "description": "Restore damaged teeth with high-quality crowns and bridges.",
+      "icon": "award"
+    },
+    {
+      "id": 11,
+      "name": "General Dentist Consultation",
+      "description": "Comprehensive dental check-ups and preventive care.",
+      "icon": "stethoscope"
+    }
+  ],
+  "statistics": {
+    "referralRate": "92%",
+    "treatedPatients": "3200+",
+    "services": "40+",
+    "experience": "18+"
+  },
+  "process": [
+    {
+      "step": 1,
+      "title": "Initial Consultation",
+      "description": "Comprehensive examination and treatment planning"
+    },
+    {
+      "step": 2,
+      "title": "Dental Treatment",
+      "description": "Expert care using advanced technology and techniques"
+    },
+    {
+      "step": 3,
+      "title": "Guarantee & Satisfaction",
+      "description": "Follow-up care and long-term dental health support"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Priya Shah",
+      "rating": 5,
+      "text": "Dr. Rushabh Patel is an excellent dentist. My root canal treatment was completely painless. Highly recommended!"
+    },
+    {
+      "id": 2,
+      "name": "Amit Desai",
+      "rating": 5,
+      "text": "Best dental clinic in Ahmedabad. Professional staff and modern equipment. Very satisfied with my dental implant."
+    },
+    {
+      "id": 3,
+      "name": "Neha Patel",
+      "rating": 5,
+      "text": "Amazing experience! The clinic is very clean and the doctor is very gentle. My teeth whitening results are fantastic."
+    }
+  ]
+}
